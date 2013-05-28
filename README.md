@@ -1,1 +1,1 @@
-Vendor files for Motorola Droid RAZR M (XT907)
+Vendor files for Acer Swing (CloudMobile)
