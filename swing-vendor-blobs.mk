@@ -176,7 +176,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libc.so:system/lib/libc.so \
     $(VENDOR_BLOB_FOLDER)/lib/libstdc++.so:system/lib/libstdc++.so \
     $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/light.msm8960.so:system/lib/hw/light.msm8960.so
+    $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
 
 # Firmware
 PRODUCT_COPY_FILES +=  \
