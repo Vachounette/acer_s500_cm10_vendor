@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
-    $(VENDOR_BLOB_FOLDER)/bin/vold:system/bin/vold \
     $(VENDOR_BLOB_FOLDER)/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqcci_acer.so:system/lib/libqcci_acer.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril.so:system/lib/libril.so \
