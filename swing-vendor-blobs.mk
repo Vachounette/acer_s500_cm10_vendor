@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.swing.so:system/lib/hw/nfc.swing.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libacdbloader.so:system/lib/libacdbloader.so \
     $(VENDOR_BLOB_FOLDER)/lib/libAKM.so:system/lib/libAKM.so \
     $(VENDOR_BLOB_FOLDER)/lib/libaudcal.so:system/lib/libaudcal.so \
