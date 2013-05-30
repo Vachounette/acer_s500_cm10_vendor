@@ -156,6 +156,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
