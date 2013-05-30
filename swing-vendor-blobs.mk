@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.swing.so:system/lib/hw/nfc.swing.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \	
+    $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/libacdbloader.so:system/lib/libacdbloader.so \
     $(VENDOR_BLOB_FOLDER)/lib/libAKM.so:system/lib/libAKM.so \
     $(VENDOR_BLOB_FOLDER)/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -157,7 +157,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \	
+    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     $(VENDOR_BLOB_FOLDER)/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
@@ -172,12 +172,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acer-qmi-1.so:system/lib/libril-acer-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acerril-hook-oem.so:system/lib/libril-acerril-hook-oem.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libsqlite.so:system/lib/libsqlite.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libc.so:system/lib/libc.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libstdc++.so:system/lib/libstdc++.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
+#    $(VENDOR_BLOB_FOLDER)/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libsqlite.so:system/lib/libsqlite.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libc.so:system/lib/libc.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libstdc++.so:system/lib/libstdc++.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
+
 
 # Firmware
 PRODUCT_COPY_FILES +=  \
