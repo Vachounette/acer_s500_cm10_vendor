@@ -145,7 +145,6 @@ case "$target" in
         rm  /system/lib/modules/cfg80211.ko
         ln -s /system/lib/modules/prima/prima_wlan.ko /system/lib/modules/wlan.ko
         ln -s /system/lib/modules/prima/cfg80211.ko /system/lib/modules/cfg80211.ko
-        insmod /system/lib/modules/prima/cfg80211.ko
         # The property below is used in Qcom SDK for softap to determine
         # the wifi driver config file
         setprop wlan.driver.config /data/misc/wifi/WCNSS_qcom_cfg.ini
