@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libAKM.so:system/lib/libAKM.so \
     $(VENDOR_BLOB_FOLDER)/lib/libalsautils.so:system/lib/libalsautils.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libaudcal.so:system/lib/libaudcal.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbson.so:system/lib/libbson.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcapsjava.so:system/lib/libcapsjava.so \
     $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
