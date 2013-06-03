@@ -171,8 +171,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acer-qmi-1.so:system/lib/libril-acer-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acerril-hook-oem.so:system/lib/libril-acerril-hook-oem.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
- 
+    $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libc.so:system/lib/libc.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so
 
 
 # Firmware
