@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     $(VENDOR_BLOB_FOLDER)/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \	
+    $(VENDOR_BLOB_FOLDER)/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
     $(VENDOR_BLOB_FOLDER)/lib/libulp.so:system/lib/libulp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libulp2.so:system/lib/libulp2.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
