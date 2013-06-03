@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/libacdbloader.so:system/lib/libacdbloader.so \
     $(VENDOR_BLOB_FOLDER)/lib/libAKM.so:system/lib/libAKM.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libalsautils.so:system/lib/libalsautils.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libaudcal.so:system/lib/libaudcal.so \
     $(VENDOR_BLOB_FOLDER)/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbson.so:system/lib/libbson.so \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneutils.so:system/lib/libcneutils.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libcsd-client.so:system/lib/libcsd-client.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libcurl.so:system/lib/libcurl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdiag.so:system/lib/libdiag.so \
     $(VENDOR_BLOB_FOLDER)/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
