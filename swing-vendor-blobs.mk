@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     $(VENDOR_BLOB_FOLDER)/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libulp.so:system/lib/libulp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libulp2.so:system/lib/libulp2.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
@@ -192,6 +193,7 @@ PRODUCT_COPY_FILES +=  \
     $(VENDOR_BLOB_FOLDER)/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     $(VENDOR_BLOB_FOLDER)/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     $(VENDOR_BLOB_FOLDER)/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so \
+    $(VENDOR_BLOB_FOLDER)/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \	
     $(VENDOR_BLOB_FOLDER)/firmware/spkeq_48k.bin:system/etc/firmware/spkeq_48k.bin \
     $(VENDOR_BLOB_FOLDER)/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     $(VENDOR_BLOB_FOLDER)/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
