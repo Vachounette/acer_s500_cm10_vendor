@@ -66,10 +66,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
     $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \	
+    $(VENDOR_BLOB_FOLDER)/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneutils.so:system/lib/libcneutils.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libcsd-client.so:system/lib/libcsd-client.so \	
+    $(VENDOR_BLOB_FOLDER)/lib/libcsd-client.so:system/lib/libcsd-client.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcurl.so:system/lib/libcurl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdiag.so:system/lib/libdiag.so \
     $(VENDOR_BLOB_FOLDER)/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
