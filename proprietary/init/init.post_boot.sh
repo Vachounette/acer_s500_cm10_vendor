@@ -121,6 +121,8 @@ case "$target" in
          echo 384000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
          echo 384000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
          echo 384000 > /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
+		 echo 1512000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+		 echo 1512000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq		 
          chown system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
          chown system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
          chown system /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
@@ -137,8 +139,8 @@ case "$target" in
          chmod 664 /sys/devices/system/cpu/cpu1/online
          chmod 664 /sys/devices/system/cpu/cpu2/online
          chmod 664 /sys/devices/system/cpu/cpu3/online
-         echo 1 > /sys/module/msm_show_resume_irq/parameters/debug_mask
-         echo 7 > /sys/module/wakelock/parameters/debug_mask
+         echo 0 > /sys/module/msm_show_resume_irq/parameters/debug_mask
+         echo 0 > /sys/module/wakelock/parameters/debug_mask
          chown system /sys/acer_input/enable
          start qosmgrd
          soc_id=`cat /sys/devices/system/soc/soc0/id`
@@ -222,7 +224,7 @@ esac
 # Post-setup services
 case "$target" in
     "msm8660" | "msm8960")
-        #start mpdecision
+        start mpdecision
     ;;
     "msm7627a")
         soc_id=`cat /sys/devices/system/soc/soc0/id`
