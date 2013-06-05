@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
     $(VENDOR_BLOB_FOLDER)/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    $(VENDOR_BLOB_FOLDER)/bin/mpdecision:system/bin/mpdecision \
     $(VENDOR_BLOB_FOLDER)/bin/netmgrd:system/bin/netmgrd \
     $(VENDOR_BLOB_FOLDER)/bin/nl_listener:system/bin/nl_listener \
     $(VENDOR_BLOB_FOLDER)/bin/port-bridge:system/bin/port-bridge \
