@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libiprouteutil.so:system/lib/libiprouteutil.so \
     $(VENDOR_BLOB_FOLDER)/lib/libjpeg.so:system/lib/libjpeg.so \
     $(VENDOR_BLOB_FOLDER)/lib/libjpegrd.so:system/lib/libjpegrd.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -271,6 +270,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     $(VENDOR_BLOB_FOLDER)/lib/libC2D2.so:system/lib/libC2D2.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgsl.so:system/lib/libgsl.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libllvm-arm.so:system/lib/libllvm-arm.so \	
     $(VENDOR_BLOB_FOLDER)/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
