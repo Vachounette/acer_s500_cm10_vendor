@@ -204,64 +204,6 @@ PRODUCT_COPY_FILES +=  \
     $(VENDOR_BLOB_FOLDER)/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     $(VENDOR_BLOB_FOLDER)/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     $(VENDOR_BLOB_FOLDER)/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b02:system/etc/firmware/dsps.b02 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b03:system/etc/firmware/dsps.b03 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
-    $(VENDOR_BLOB_FOLDER)/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b00:system/etc/firmware/modem.b00 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b01:system/etc/firmware/modem.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b02:system/etc/firmware/modem.b02 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b03:system/etc/firmware/modem.b03 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b04:system/etc/firmware/modem.b04 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b05:system/etc/firmware/modem.b05 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b06:system/etc/firmware/modem.b06 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b07:system/etc/firmware/modem.b07 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b08:system/etc/firmware/modem.b08 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b09:system/etc/firmware/modem.b09 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.b10:system/etc/firmware/modem.b10 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b00:system/etc/firmware/modem_fw.b00 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b01:system/etc/firmware/modem_fw.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b02:system/etc/firmware/modem_fw.b02 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b11:system/etc/firmware/modem_fw.b11 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.fli:system/etc/firmware/modem_fw.fli \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b00:system/etc/firmware/q6.b00 \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b03:system/etc/firmware/q6.b03 \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b04:system/etc/firmware/q6.b04 \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b05:system/etc/firmware/q6.b05 \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b01:system/etc/firmware/q6.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    $(VENDOR_BLOB_FOLDER)/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    $(VENDOR_BLOB_FOLDER)/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.b06:system/etc/firmware/q6.b06 \
-    $(VENDOR_BLOB_FOLDER)/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    $(VENDOR_BLOB_FOLDER)/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    $(VENDOR_BLOB_FOLDER)/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    $(VENDOR_BLOB_FOLDER)/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/q6.mdt:system/etc/firmware/q6.mdt \
-    $(VENDOR_BLOB_FOLDER)/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
