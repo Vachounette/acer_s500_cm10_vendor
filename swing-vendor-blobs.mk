@@ -259,14 +259,10 @@ PRODUCT_PACKAGES += \
     libxt_native.so \
     libwiperjni.so
 
-<<<<<<< HEAD
 # Gallery and camera 
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/app/Gallery2.apk:system/app/Gallery2.apk
-	
-=======
 
->>>>>>> 53cfcdfd2c963ef394e1f455fbb22d2dea840d19
 # Stock ICS adreno blobs
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
