@@ -316,6 +316,9 @@ PRODUCT_PACKAGES += \
     libxt_native.so \
     libwiperjni.so
 
+# Gallery and camera 
+PRODUCT_COPY_FILES += \
+    $(VENDOR_BLOB_FOLDER)/app/Gallery2.apk:system/app/Gallery2.apk
 	
 # Stock ICS adreno blobs
 PRODUCT_COPY_FILES += \
