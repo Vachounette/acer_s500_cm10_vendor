@@ -259,6 +259,10 @@ PRODUCT_PACKAGES += \
     libxt_native.so \
     libwiperjni.so
 
+# Hack for eco_mode 
+PRODUCT_COPY_FILES += \
+    $(VENDOR_BLOB_FOLDER)/etc/init.d/99force_off_eco_mode.sh:system/etc/init.d/99force_off_eco_mode.sh
+
 # Gallery and camera 
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/app/Gallery2.apk:system/app/Gallery2.apk
