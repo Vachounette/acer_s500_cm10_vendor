@@ -79,6 +79,7 @@ case "$target" in
          chmod 664 /sys/devices/system/cpu/cpu3/online
          echo 0 > /sys/module/msm_show_resume_irq/parameters/debug_mask
          echo 0 > /sys/module/wakelock/parameters/debug_mask
+	 echo 0 > /sys/class/graphics/fb0/eco_mode
          chown system /sys/acer_input/enable
          start qosmgrd
          soc_id=`cat /sys/devices/system/soc/soc0/id`
