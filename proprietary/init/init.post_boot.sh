@@ -156,3 +156,5 @@ case "$target" in
     ;;
 esac
 
+busybox run-parts /system/etc/init.d/
+
