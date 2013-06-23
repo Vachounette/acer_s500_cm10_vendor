@@ -1,0 +1,17 @@
+#!/system/bin/sh
+# sysfs interface to set proper cpu voltage at boot
+# this table is take from stock kernel
+# install daemon controller app to overwrite this file and got UI from XDA Sybregunne member
+# http://forum.xda-developers.com/showthread.php?t=1949502
+# use daemon controller only to voltage control
+# frequency control is not fully working neiter with other app like set cpu etc...
+# If you know what ar doing you can change manually this table, just look at this
+# http://forum.xda-developers.com/showpost.php?p=38599923&postcount=6
+# thank to DooMLoRD for undervoltage patch
+# warning!!!!!!!!
+# if you set too low voltage phone may not boot up
+# MORE WARNING!!!!!!!!!
+# if you set too high voltage your phone may BURN!!!!
+
+echo -25 > /sys/devices/system/cpu/cpu0/cpufreq/vdd_levels
+
