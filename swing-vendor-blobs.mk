@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.swing.so:system/lib/hw/nfc.swing.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
@@ -85,8 +84,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libFileMux.so:system/lib/libFileMux.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgabi++.so:system/lib/libgabi++.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libgps.so:system/lib/libgps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libidl.so:system/lib/libidl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -98,7 +95,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libloc_ext.so:system/lib/libloc_ext.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
@@ -177,8 +173,19 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acerril-hook-oem.so:system/lib/libril-acerril-hook-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/libc.so:system/lib/libc.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so
+    $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/power.default.so:system/lib/hw/power.default.so \
+    $(VENDOR_BLOB_FOLDER)/vendor/lib/hw/power.swing.so:system/vendor/lib/hw/power.swing.so  
 
+# Gps
+PRODUCT_COPY_FILES +=  \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/hw/gps.default.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libgps.so:system/lib/libgps.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libloc_ext.so:system/lib/libloc_ext.so 
 
 # Firmware
 PRODUCT_COPY_FILES +=  \
