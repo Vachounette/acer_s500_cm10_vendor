@@ -272,7 +272,7 @@ PRODUCT_COPY_FILES += \
 
 # Undervolt 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_BLOB_FOLDER)/proprietary/init.d/84uv:system/etc/init.d/84uv
+    $(VENDOR_BLOB_FOLDER)/init.d/84uv:system/etc/init.d/84uv
 
 # Stock ICS adreno blobs
 PRODUCT_COPY_FILES += \
