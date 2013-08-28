@@ -274,7 +274,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/usr/idc/acer-input.idc:system/usr/idc/acer-input.idc \
     $(VENDOR_BLOB_FOLDER)/usr/idc/cypress-ts.idc:system/usr/idc/cypress-ts.idc \
-    $(VENDOR_BLOB_FOLDER)/usr/icu/icudt48l.dat:system/usr/icu/icudt48l.dat \
+    $(VENDOR_BLOB_FOLDER)/usr/idc/icudt48l.dat:system/usr/icu/icudt48l.dat \
     $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
     $(VENDOR_BLOB_FOLDER)/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
