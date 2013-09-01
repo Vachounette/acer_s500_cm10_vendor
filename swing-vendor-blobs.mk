@@ -189,64 +189,64 @@ PRODUCT_COPY_FILES +=  \
 
 # Firmware
 PRODUCT_COPY_FILES +=  \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a9_gauge_16.dfi:system/etc/firmware/a9_gauge_16.dfi \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a9_gauge_17.dfi:system/etc/firmware/a9_gauge_17.dfi \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a9_tp_fw_dvt.hex:system/etc/firmware/a9_tp_fw_dvt.hex \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/a9_tp_fw.hex:system/etc/firmware/a9_tp_fw.hex \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/spkeq_48k.bin:system/etc/firmware/spkeq_48k.bin \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/wlan_mac.bin:system/etc/firmware/wlan/prima/wlan_mac.bin 
+    $(VENDOR_BLOB_FOLDER)/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/a9_gauge_16.dfi:system/etc/firmware/a9_gauge_16.dfi \
+    $(VENDOR_BLOB_FOLDER)/firmware/a9_gauge_17.dfi:system/etc/firmware/a9_gauge_17.dfi \
+    $(VENDOR_BLOB_FOLDER)/firmware/a9_tp_fw_dvt.hex:system/etc/firmware/a9_tp_fw_dvt.hex \
+    $(VENDOR_BLOB_FOLDER)/firmware/a9_tp_fw.hex:system/etc/firmware/a9_tp_fw.hex \
+    $(VENDOR_BLOB_FOLDER)/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so \
+    $(VENDOR_BLOB_FOLDER)/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    $(VENDOR_BLOB_FOLDER)/firmware/spkeq_48k.bin:system/etc/firmware/spkeq_48k.bin \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    $(VENDOR_BLOB_FOLDER)/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    $(VENDOR_BLOB_FOLDER)/wlan/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    $(VENDOR_BLOB_FOLDER)/wlan/wlan_mac.bin:system/etc/firmware/wlan/prima/wlan_mac.bin 
 
 # Init files
 PRODUCT_COPY_FILES +=  \
-    $(VENDOR_BLOB_FOLDER)/etc/init.bt.sh:system/etc/init.bt.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.CABC.sh:system/etc/init.CABC.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.coex.sh:system/etc/init.coex.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.goldfish.sh:system/etc/init.goldfish.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.efs.sync.sh:system/etc/init.efs.sync.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.modem_links.sh:system/etc/init.modem_links.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.post_fs.sh:system/etc/init.post_fs.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.fm.sh:system/etc/init.fm.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.thermald_conf.sh:system/etc/init.thermald_conf.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.post_boot.sh:system/etc/init.post_boot.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.mdm_links.sh:system/etc/init.mdm_links.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.sdio.sh:system/etc/init.sdio.sh \
-    $(VENDOR_BLOB_FOLDER)/etc/init.wifi.sh:system/etc/init.wifi.sh
+    $(VENDOR_BLOB_FOLDER)/init/init.bt.sh:system/etc/init.bt.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.CABC.sh:system/etc/init.CABC.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.coex.sh:system/etc/init.coex.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.goldfish.sh:system/etc/init.goldfish.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.efs.sync.sh:system/etc/init.efs.sync.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.modem_links.sh:system/etc/init.modem_links.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.post_fs.sh:system/etc/init.post_fs.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.fm.sh:system/etc/init.fm.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.thermald_conf.sh:system/etc/init.thermald_conf.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.post_boot.sh:system/etc/init.post_boot.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.mdm_links.sh:system/etc/init.mdm_links.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.sdio.sh:system/etc/init.sdio.sh \
+    $(VENDOR_BLOB_FOLDER)/init/init.wifi.sh:system/etc/init.wifi.sh
 
 # Modules
 PRODUCT_COPY_FILES +=  \
-    $(VENDOR_BLOB_FOLDER)/lib/ansi_cprng.ko:system/lib/lib/ansi_cprng.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/bluetooth-power.ko:system/lib/lib/bluetooth-power.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/dma_test.ko:system/lib/lib/dma_test.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/mcdrvmodule.ko:system/lib/lib/mcdrvmodule.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/mckernelapi.ko:system/lib/lib/mckernelapi.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/msm-buspm-dev.ko:system/lib/lib/msm-buspm-dev.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/qcedev.ko:system/lib/lib/qcedev.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/qcrypto.ko:system/lib/lib/qcrypto.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/qce40.ko:system/lib/lib/qce40.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/radio-iris-transport.ko:system/lib/lib/radio-iris-transport.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/reset_modem.ko:system/lib/lib/reset_modem.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/test-iosched.ko:system/lib/lib/test-iosched.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/prima/cfg80211.ko:system/lib/lib/prima/cfg80211.ko \
-    $(VENDOR_BLOB_FOLDER)/lib/prima/prima_wlan.ko:system/lib/lib/prima/prima_wlan.ko
+    $(VENDOR_BLOB_FOLDER)/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/bluetooth-power.ko:system/lib/modules/bluetooth-power.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/mcdrvmodule.ko:system/lib/modules/mcdrvmodule.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/mckernelapi.ko:system/lib/modules/mckernelapi.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/qce40.ko:system/lib/modules/qce40.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/prima/cfg80211.ko:system/lib/modules/prima/cfg80211.ko \
+    $(VENDOR_BLOB_FOLDER)/modules/prima/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko
 
 
 
@@ -270,90 +270,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/app/Gallery2.apk:system/app/Gallery2.apk
 
-# Key layouts and touchscreen
-PRODUCT_COPY_FILES += \
-    $(VENDOR_BLOB_FOLDER)/usr/idc/acer-input.idc:system/usr/idc/acer-input.idc \
-    $(VENDOR_BLOB_FOLDER)/usr/idc/cypress-ts.idc:system/usr/idc/cypress-ts.idc \
-    $(VENDOR_BLOB_FOLDER)/usr/icu/icudt48l.dat:system/usr/icu/icudt48l.dat \
-    $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-    $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-    $(VENDOR_BLOB_FOLDER)/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/keychars/keypad_swing_qwerty.kcm:system/usr/keychars/keypad_swing_qwerty.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/keypad_swing.kl:system/usr/keylayout/keypad_swing.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl \
-    $(VENDOR_BLOB_FOLDER)/usr/share/bmd/RFFspeed_501.bmd:system/usr/share/bmd/RFFspeed_501.bmd \
-    $(VENDOR_BLOB_FOLDER)/usr/share/bmd/RFFstd_501.bmd:system/usr/share/bmd/RFFstd_501.bmd \
-    $(VENDOR_BLOB_FOLDER)/usr/share/zoneinfo/zoneinfo.dat:system/usr/share/zoneinfo/zoneinfo.dat \
-    $(VENDOR_BLOB_FOLDER)/usr/share/zoneinfo/zoneinfo.idx:system/usr/share/zoneinfo/zoneinfo.idx \
-    $(VENDOR_BLOB_FOLDER)/usr/share/zoneinfo/zoneinfo.version:system/usr/share/zoneinfo/zoneinfo.version \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/baseline.par:system/usr/srec/config/en.us/baseline.par \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/baseline8k.par:system/usr/srec/config/en.us/baseline8k.par \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/baseline11k.par:system/usr/srec/config/en.us/baseline11k.par \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/dictionary/basic.ok:system/usr/srec/config/en.us/dictionary/basic.ok \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip:system/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/dictionary/enroll.ok:system/usr/srec/config/en.us/dictionary/enroll.ok \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/g2p/en-US-ttp.data:system/usr/srec/config/en.us/g2p/en-US-ttp.data \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/grammars/boolean.g2g:system/usr/srec/config/en.us/grammars/boolean.g2g \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/grammars/phone_type_choice.g2g:system/usr/srec/config/en.us/grammars/phone_type_choice.g2g \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/grammars/VoiceDialer.g2g:system/usr/srec/config/en.us/grammars/VoiceDialer.g2g \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic.swiarb:system/usr/srec/config/en.us/models/generic.swiarb \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic8.lda:system/usr/srec/config/en.us/models/generic8.lda \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic8_f.swimdl:system/usr/srec/config/en.us/models/generic8_f.swimdl \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic8_m.swimdl:system/usr/srec/config/en.us/models/generic8_m.swimdl \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic11.lda:system/usr/srec/config/en.us/models/generic11.lda \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic11_f.swimdl:system/usr/srec/config/en.us/models/generic11_f.swimdl \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models/generic11_m.swimdl:system/usr/srec/config/en.us/models/generic11_m.swimdl \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models:system/usr/srec/config/en.us/models \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/acoustic_model:system/usr/srec/en-US/acoustic_model \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/dict:system/usr/srec/en-US/dict \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/dictation.config:system/usr/srec/en-US/dictation.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/embed_phone_nn_model:system/usr/srec/en-US/embed_phone_nn_model \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/embed_phone_nn_state_sym:system/usr/srec/en-US/embed_phone_nn_state_sym \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/g2p_fst:system/usr/srec/en-US/g2p_fst \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/google_hotword.config:system/usr/srec/en-US/google_hotword.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/google_hotword_clg:system/usr/srec/en-US/google_hotword_clg \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/google_hotword_logistic:system/usr/srec/en-US/google_hotword_logistic \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/grammar.config:system/usr/srec/en-US/grammar.config \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/hmmsyms:system/usr/srec/en-US/hmmsyms \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/hotword_symbols:system/usr/srec/en-US/hotword_symbols \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/lintrans_model:system/usr/srec/en-US/lintrans_model \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/metadata:system/usr/srec/en-US/metadata \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/norm_fst:system/usr/srec/en-US/norm_fst \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/phonelist:system/usr/srec/en-US/phonelist \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/en-US/symbols:system/usr/srec/en-US/symbols \
-    $(VENDOR_BLOB_FOLDER)/usr/srec/config/en.us/models:system/usr/srec/config/en.us/models \
-    $(VENDOR_BLOB_FOLDER)/usr/keylayout/keypad_swing_qwerty.kcm:system/usr/keylayout/keypad_swing_qwerty.kcm \
-    $(VENDOR_BLOB_FOLDER)/usr/idc/cypress-ts.idc:system/usr/idc/cypress-ts.idc 
-	
 # Undervolt 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_BLOB_FOLDER)/etc/init.d/84uv:system/etc/init.d/84uv
+    $(VENDOR_BLOB_FOLDER)/init.d/84uv:system/etc/init.d/84uv
 
-# Stock JB adreno blobs
+# Stock ICS adreno blobs
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     $(VENDOR_BLOB_FOLDER)/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
